@@ -9,5 +9,4 @@
 ```bash
 pip install pyinstaller
 خروجی گرفتن (Export) به صورت فایل اجرایی (EXE)
-```bash
 python -m PyInstaller --onefile --windowed --uac-admin --icon=icon.ico --name "GameTrainer" main.py
