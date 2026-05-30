@@ -1,0 +1,39 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*.egg-info/
+.eggs/
+*.egg
+
+# ---- Virtualenv ----
+.venv/
+venv/
+ENV/
+env/
+pip-wheel-metadata/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Logs ----
+*.log
+
+# ---- Build / Distribution (PyInstaller) ----
+build/
+dist/
+*.spec
+
+# ---- Optional: local configs/secrets (if any) ----
+# .env
+# config_local.py
